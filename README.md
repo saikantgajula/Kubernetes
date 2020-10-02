@@ -1,5 +1,5 @@
 # Kubernetes 
-## kubernetes_install.sh 
+## kubernetes_single_node_install.sh 
 Script installs a single node kubernetes cluster. This single node can be used to create user pod also.
 By default kubernetes doesn't allow users to schedule user pod on master nodes. For this we untaint master node so that user pod can be scheduled on this node.
 
